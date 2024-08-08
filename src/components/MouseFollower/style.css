@@ -1,0 +1,61 @@
+.MouseFollower{
+    position: fixed;
+    width: 65px;
+    height: 65px;
+    overflow-y: hidden;
+    top: -100px;
+    left: -100px;
+    border: 1px solid #fff;
+    transform: translate(-50%, -50%);
+    z-index: 200;
+    place-content: center;
+    pointer-events: none;
+    
+}
+.MouseFollower h1 {
+  font-size: 12px;
+  color: red;
+  text-align: center;
+  font-weight: bold;
+}
+
+.hire--me {
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1;
+  opacity: 1;
+  background-color: transparent;
+  box-shadow: 0 0 10px 0px #ffffff50;
+  animation: scrollAnim 4s infinite forwards;
+  animation-delay: 10s;
+}
+
+@keyframes scrollAnim {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+@media (max-width: 1500px) {
+    .MouseFollower{
+        width: 45px;
+        height: 45px;
+    }
+    
+    .MouseFollower > div{
+        width: 8px;
+    }
+  }
+
+
+  @media (max-width: 700px) {
+    .MouseFollower{
+        display: none;
+    }
+  }
