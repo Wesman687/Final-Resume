@@ -3,20 +3,11 @@
     "company": "Contract",
     "role": "Software Developer (Frontend)",
     "resps": [
-      "Made a full stack webpage for Ecommerce site, that has user authentication, which documents and store all the items they buy",
-      "with their address, email, and etc.  The customer/owner has their own admin page, where they can sort through all of this data.",
-      "Plus add/remove items from the page, also update info on items, such as prices, sales and such.",
-      "Also has a section where they can notify me with changes they wish to have made, and add any pictures/files they wish to include with changes.",
-      "The sight has a full shopping cart, that is setup from the backend, so it is fully secure.  It's a fully functional sight, with regular maintenance for",
-      "the best possible user experience.  ",
-      "Architected a backend system to continuously monitor the uptime of all user interfaces, ensuring optimal performance.",
-      "Created a Spotify clone that allows users to play music, skip songs to next track and also click to seek to certain segmants of the song.",
-      "Also through a backend server, and an administration page, the user can add songs, remove songs, add albums, put songs in albums.  ",
-      "it's a fully functional music program with great user experience.",
-      "Created an AI image generator, so users can enter anykind of design they want, and it will give them 6 different pictures designs from the related search",
-      "Setup a Gemini AI clone, that resemblance the AI webpage, this Gemini clone can be attached to any webpage, or any app/program to enhance any prorgam. ",
-      "It also can be fed documents, related to the individual program that it is added to, in order to create a more custom point of view for the task at hand.",
-      "Setup a netflix app that has users sign in, in order to use the application.  After signing in, the user can explore different movie selections they type in."
+      "Tech Stack: Leveraged a comprehensive tech stack, including JavaScript, React, Node.js, Express, and MongoDB, to design and maintain full-stack web applications, ensuring high performance, security, and seamless user interactions.",
+      "E-commerce Platform Development: Engineered a fully operational e-commerce website featuring user authentication, a secure shopping cart, and an admin dashboard for managing products and customer data. Implemented a notification system to streamline client communication and expedite requested changes.",
+      "AI and Automation Integration: Developed an AI image generator and configured a Gemini AI clone, enhancing user experiences by integrating customizable AI functionalities into various applications, tailored to specific program needs.",
+      "Music Streaming Application: Created a fully functional Spotify clone, featuring intuitive music playback controls and an admin interface for managing songs and albums, delivering a comprehensive and engaging music streaming experience.",
+      "Performance Monitoring: Designed and implemented a backend system to continuously monitor and optimize the uptime and performance of all user interfaces, ensuring reliability and a superior user experience."
     ],
     "date": "May 2024 - Current"
   },
@@ -24,21 +15,11 @@
     "company": "Miracle Signs and Designs",
     "role": "Owner - Operator - Installer- Sales ",
     "resps": [
-      "I started the sign company over necessity for my ex wife's family business, which at that point in time i was given a printer and equipment and was told to have fun.",
-      "Created the business from the ground up which meant learning as the jobs came, and also building clientelle/work relationships.",
-      "With the company I learned how to manage vast amounts of workflows, to make sure every customer got a quality product, within a quick timeframe to ensure repeat business.",
-      "Had to manage many employes, and their workload as well.  I headed up very big jobs, not just throughout the state, but the whole SE portion of the country.",
-      "Needed to be very efficient with design programs, so I could manipulate designs the designer would send to me to ensure that it fit onto the final product, also",
-      "it was used to setup initial design templates like measurements of vehicles/windows/signs/etc.",
-      "Excelled at handling time, resources, and employees in high stress and high cost environments, to efficiently manage costs of the jobs, but also keeping the quality top knotch.",
-      "Created a dedicated customer base, through extensive sales experience, and ensuring that all customers got quality products everytime, for well over a decade.",
-      "Initiated and managed community-building activities, fostering a sense of camaraderie among local businesses and the community as a whole.",
-      "We did not just develop the designs, but we also created an entire advertising image for our customers. Where we setup the logo, the coloring, the selling points, and created a",
-      "actiton plan to get them the most attention for the best price possible.  We excelled at getting customers the right advertisement that would get them off the ground, within",
-      "most reasonable price.  We worked with many new businesses in helping them setup the proper networks, in order to do business in the local community, we helped dozens if not over a hundred",
-      "new businesses.  A lot became very successful businesses, and was lifetime customers.",
-      "Got sick with GBS - Guillain-Barré syndrome, and was wheel chair bound for over a year, where I had to go through extensive therapy to recover my ability to walk,",
-      "due to this I had to sell the company and pursue a new career."
+      "Established and Managed a Successful Sign Company: Built the business from the ground up, overseeing every aspect, including client acquisition, workflow management, and team leadership across large-scale projects in the Southeastern U.S.",
+      "Technical Proficiency and Design Expertise: Mastered design software to efficiently manipulate and set up templates for various products, ensuring precision and high-quality outcomes.",
+      "Client-Centric Approach: Developed and maintained a dedicated customer base by delivering quality products on time and creating comprehensive advertising strategies that helped new businesses establish their brand.",
+      "Leadership in High-Stress Environments: Effectively managed time, resources, and employees under pressure, ensuring cost efficiency while maintaining top-notch quality on all projects.",
+      "Overcame Adversity: After contracting Guillain-Barré syndrome and recovering from being wheelchair-bound for over a year, I eventually sold the company and transitioned to a new career path."
     ],
     "date": "Aug 2010 - March 2022"
   }

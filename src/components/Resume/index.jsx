@@ -72,7 +72,7 @@ export default function Resume() {
                 <a href="https://www.linkedin.com/in/paul-wesley-miracle/" target="_blank" rel="noreferrer">
                   <Icon img={linkedinIcon} />
                 </a>
-                <a href="./PaulMiracle-resume-2024.pdf">
+                <a href="./PaulMiracle-resume-2024.docx">
                   <Icon img={fileIcon} />
                 </a>
               </motion.div>
