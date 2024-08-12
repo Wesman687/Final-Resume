@@ -12,6 +12,8 @@ import work2 from "../../assets/Images/work2.png"
 import work3 from "../../assets/Images/work3.png"
 import work4 from '../../assets/Images/work4.png'
 import work5 from '../../assets/Images/work5.png'
+import work6 from '../../assets/Images/work6.png'
+import work7 from '../../assets/Images/work7.png'
 
 export default function Projects() {
   const controls = useAnimation()
@@ -65,6 +67,24 @@ export default function Projects() {
       detail: "Gamer Search, with popular news, using MMOBomb.com Api. Searches games by text, date, mmo, shooter, rpg, etc.  Date.  Fully functional with best user experience possible.",
       url: "https://game-search-e1a575dcab7b.herokuapp.com/",
       git: "https://github.com/Wesman687/Game-Search"
+    },
+    {
+      client: "AI Image Generator",
+      year: "2023",
+      img: work7,
+      title: "AI Image Generator",
+      detail: "Ai image generator that displays custom images depending on user input, along with extra options.",
+      url: "https://ai-image-generator-qohm8mde9-wesman687s-projects.vercel.app/",
+      git: "https://github.com/Wesman687/Ai-Image-Generator"
+    },
+    {
+      client: "Ecommerce Sight",
+      year: "2023",
+      img: work6,
+      title: "Online E-Book Sight",
+      detail: "Search popular books, sort by price, and rating.  Contains a custom checkout.",
+      url: "https://ecommerce-site-e249eed6484a.herokuapp.com/",
+      git: "https://github.com/Wesman687/Ecommerce-Site"
     },
     {
       client: "NetFlix Clone",
