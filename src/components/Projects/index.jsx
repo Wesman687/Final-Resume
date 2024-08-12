@@ -14,6 +14,7 @@ import work4 from '../../assets/Images/work4.png'
 import work5 from '../../assets/Images/work5.png'
 import work6 from '../../assets/Images/work6.png'
 import work7 from '../../assets/Images/work7.png'
+import work8 from '../../assets/Images/work8.png'
 
 export default function Projects() {
   const controls = useAnimation()
@@ -42,13 +43,22 @@ export default function Projects() {
       git: "https://github.com/Wesman687/twitter-clone/tree/master"
     },
     {
+      client: "Music Player",
+      year: "2022",
+      img: work8,
+      title: "Full Stack Music Player",
+      detail: "A full stack music player, using vite, tailwindcss, mongoose, express, nodemon.  Play music, sort them by albums, add/remove music and albums from the admin page, running from a backend server.",
+      url: "https://spotify-clone-ruddy-rho.vercel.app/",
+      git: "https://github.com/Wesman687/mile-high"
+    },
+    {
       client: "Ecommerce Sight",
       year: "2022",
       img: work2,
       title: "Full Stack Ecommerce Sight, Admin Tools for Product Management",
       detail: "A fully functional Ecommerce sight, with Stripe Payment processing, Admin page for product Management, and Order history.  User authentication, with User Database to store purchases, and Contact information.",
       url: "https://mile-high.vercel.app/",
-      git: "https://github.com/Wesman687/mile-high"
+      git: "https://github.com/Wesman687/spotify-clone"
     },
     {
       client: "Gemini",

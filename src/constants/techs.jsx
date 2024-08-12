@@ -5,7 +5,7 @@ import tsIcon from "../assets/Icon/Tech/ts.svg";
 import reactIcon from "../assets/Icon/Tech/react.svg";
 import reduxIcon from "../assets/Icon/Tech/redux.svg";
 import firebaseIcon from "../assets/Icon/Tech/firebase.svg";
-import sassIcon from "../assets/Icon/Tech/sass.svg";
+import nextIcon from "../assets/Icon/Tech/nextjs.svg";
 
 const techs = [
     {
@@ -50,6 +50,13 @@ const techs = [
       detail:
         "Platform developed by Google for creating mobile and web applications.",
     },
+    {
+      title: "NextJs",
+      icon: nextIcon,
+      detail:
+        "Next.js is an open-source web development framework that uses React to build fast, interactive web applications.",
+    },
+
   ];
 
 export default techs;

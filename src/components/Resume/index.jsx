@@ -80,7 +80,7 @@ export default function Resume() {
 
             <div className="resume--grid--detail--data--skills">
               <h4>
-                <ScrambleText delay={0}>Technical Skills</ScrambleText>
+                <ScrambleText delay={0}>Technical Stacks</ScrambleText>
               </h4>
               <div className="double">
                 <FadeList delay={0} controls={controls} data={technicalSkills} />
