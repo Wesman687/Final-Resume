@@ -7,7 +7,9 @@
   display: flex;
   justify-content: space-between;
 }
-
+.work_url {
+  padding-bottom: 12px;
+}
 .workCard--head h3 {
   color: #fff;
   font-size: 12px;
@@ -33,7 +35,6 @@
   display: block;
   margin: 0 auto;
   width: auto;
-  height: 500px;
 }
 
 .workCard--body p {
@@ -61,15 +62,11 @@
   line-height: 100%; /* 48px */
   letter-spacing: -1.92px;
   text-transform: uppercase;
-  mix-blend-mode: difference;
   max-width: 20ch;
 }
 
 .workCard--body img {
   width: 420px;
-  height: 420px;
-  aspect-ratio: square;
-  object-fit: cover;
   filter: grayscale(100%);
   filter: brightness(50%);
 }

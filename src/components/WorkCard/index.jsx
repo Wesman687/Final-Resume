@@ -42,20 +42,29 @@ export default function TechCard({ item }) {
 
   return (
     <div ref={ref} className="workCard">
-      <div className="workCard--head">
-        <h3>
-          <TextWriting delay={delay} nocursor controls={controls} stagger={0.08} text={item.client} />
-        </h3>
-        <h3>
-          <TextWriting delay={delay} nocursor controls={controls} stagger={0.08} text={item.year} />
-        </h3>
-      </div>
 
       <motion.div initial="hidden" animate={controls} variants={lineVariants} className="workCard--line"></motion.div>
 
       <div className="workCard--body">
+        
+      <div className="workCard--head">
+        <h3>
+          <TextWriting delay={delay} nocursor controls={controls} stagger={0.08} text={item.client} />
+        </h3>
+        <a href={item.url}>
+        <h3>
+          <TextWriting delay={delay} nocursor controls={controls} stagger={0.08} text={item.url} />
+        </h3>
+        </a>
+        <a href={item.git}>
+        <h3>
+          <TextWriting delay={delay} nocursor controls={controls} stagger={0.08} text={item.git} />
+        </h3>
+        </a>
+      </div>
         <motion.span initial="hidden" animate={controls} variants={opacityVariants} transition={{ duration: 2, delay: 0.5 }} onAnimationComplete={() => handleComplete()}>
-          <img src={item.img} alt="" className="work--img" />
+          
+        <a href={item.url}><img src={item.img} alt="" className="work--img" /></a>
         </motion.span>
         <h1>
           <HideText controls={controls} delay={delay}>

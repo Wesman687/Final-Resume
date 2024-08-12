@@ -10,6 +10,8 @@ import { useInView } from "react-intersection-observer"
 import work1 from "../../assets/Images/work1.png"
 import work2 from "../../assets/Images/work2.png"
 import work3 from "../../assets/Images/work3.png"
+import work4 from '../../assets/Images/work4.png'
+import work5 from '../../assets/Images/work5.png'
 
 export default function Projects() {
   const controls = useAnimation()
@@ -29,25 +31,49 @@ export default function Projects() {
 
   const works = [
     {
-      client: "preezie",
-      year: "2023",
+      client: "Twitter Clone",
+      year: "",
       img: work1,
-      title: "Building from the ground up",
-      detail: "Working at a startup brought the opportunity to bring many projects from their early days of development to a fully fledged application, I've had the opportunity to be a core part of multiple projects at preezie.",
+      title: "Tweet Platform",
+      detail: "Create a user profile, tweet to the platform, like, comment, and remove your tweets.  Optimized for best user experience.",
+      url: "https://twitter-clone-rka575j3m-wesman687s-projects.vercel.app/",
+      git: "https://github.com/Wesman687/twitter-clone/tree/master"
     },
     {
-      client: "Frontend Simplified",
+      client: "Ecommerce Sight",
       year: "2022",
       img: work2,
-      title: "Mentoring the next generation of junior programmers",
-      detail: "Empowering students with the knowledge and skills they need to succeed in the dynamic field of programming. Having tutored 100's of students within the Frontend simplified curriculum, this gives me a great inspiration to lead.",
+      title: "Full Stack Ecommerce Sight, Admin Tools for Product Management",
+      detail: "A fully functional Ecommerce sight, with Stripe Payment processing, Admin page for product Management, and Order history.  User authentication, with User Database to store purchases, and Contact information.",
+      url: "https://mile-high.vercel.app/",
+      git: "https://github.com/Wesman687/mile-high"
     },
     {
-      client: "Personal project",
+      client: "Gemini",
+      year: "2023",
+      img: work4,
+      title: "Ai Gemini Clone",
+      detail: "Fully functional AI Sight, using Gemini API.",
+      url: "https://gemini-clone-lgfjtnz00-wesman687s-projects.vercel.app/",
+      git: "https://github.com/Wesman687/Gemini-Clone"
+    },
+    {
+      client: "Game Search",
+      year: "2023",
+      img: work5,
+      title: "Gaming Search Platform",
+      detail: "Gamer Search, with popular news, using MMOBomb.com Api. Searches games by text, date, mmo, shooter, rpg, etc.  Date.  Fully functional with best user experience possible.",
+      url: "https://game-search-e1a575dcab7b.herokuapp.com/",
+      git: "https://github.com/Wesman687/Game-Search"
+    },
+    {
+      client: "NetFlix Clone",
       year: "2023",
       img: work3,
-      title: "WoWdle - the daily world of warcraft guessing game",
-      detail: "Having over 100,000+ users in the first month, this tested my ability to scale and succeed. A small WoW based game mixed in with elements of wordle. Check it out on wowdle.app",
+      title: "Netflix Movie Search",
+      detail: "Search movies over youtube, with full user authentication using Firebase",
+      url: "https://netflix-clone-6cnmwi081-wesman687s-projects.vercel.app/",
+      git: "https://github.com/Wesman687/Netflix-Clone"
     },
   ]
 
