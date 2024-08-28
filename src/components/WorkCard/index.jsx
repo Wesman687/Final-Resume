@@ -51,12 +51,12 @@ export default function TechCard({ item }) {
         <h3>
           <TextWriting delay={delay} nocursor controls={controls} stagger={0.08} text={item.client} />
         </h3>
-        <a href={item.url}>
+        <a href={item.url} target='_blank'>
         <h3>
           <TextWriting delay={delay} nocursor controls={controls} stagger={0.08} text={item.url} />
         </h3>
         </a>
-        <a href={item.git}>
+        <a href={item.git} target='_blank'>
         <h3>
           <TextWriting delay={delay} nocursor controls={controls} stagger={0.08} text={item.git} />
         </h3>
