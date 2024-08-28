@@ -15,6 +15,8 @@ import work5 from '../../assets/Images/work5.png'
 import work6 from '../../assets/Images/work6.png'
 import work7 from '../../assets/Images/work7.png'
 import work8 from '../../assets/Images/work8.png'
+import work9 from '../../assets/Images/work9.png'
+import work10 from '../../assets/Images/work10.png'
 
 export default function Projects() {
   const controls = useAnimation()
@@ -50,6 +52,24 @@ export default function Projects() {
       detail: "A full stack music player, using vite, tailwindcss, mongoose, express, nodemon.  Play music, sort them by albums, add/remove music and albums from the admin page, running from a backend server.",
       url: "https://spotify-clone-ruddy-rho.vercel.app/",
       git: "https://github.com/Wesman687/mile-high"
+    },
+    {
+      client: "Demo Ecommerce Front End",
+      year: "2022",
+      img: work9,
+      title: "NEXT JS Ecommerce Front End",
+      detail: "Ecommerce Demo made on Next Js, linked with the admin page listed below.  Stripe payment, full checkout, and fully functional.  This sight is still under construction.",
+      url: "https://ecommerce-front-dbrb3tc26-wesman687s-projects.vercel.app/",
+      git: "https://github.com/Wesman687/EcommerceFrontEnd"
+    },
+    {
+      client: "Demo Ecommerce Admin Page - Backend",
+      year: "2022",
+      img: work10,
+      title: "NEXT JS Ecommerce Admin page",
+      detail: "Ecommerce Demo made on Next Js, linked with the frontend page listed above. Product, and order management. Verify email functionality, with next auth Google/Github/Credentials login.  This sight is still under construction, Login as guest to test it.",
+      url: "https://nextjsecommerceadmin.onrender.com/",
+      git: "https://github.com/Wesman687/NextjsEcommerceAdmin"
     },
     {
       client: "Ecommerce Sight",
