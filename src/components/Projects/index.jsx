@@ -76,7 +76,7 @@ export default function Projects() {
       year: "2022",
       img: work2,
       title: "Full Stack Ecommerce Sight, Admin Tools for Product Management",
-      detail: "A fully functional Ecommerce sight, with Stripe Payment processing, Admin page for product Management, and Order history.  User authentication, with User Database to store purchases, and Contact information.",
+      detail: "A fully functional Ecommerce sight, with Stripe Payment processing, Admin page for product Management, and Order history.  User authentication, with User Database to store purchases, and Contact information.  This sight is linked to a server with express, mongodb, and cloudinary.",
       url: "https://mile-high.vercel.app/",
       git: "https://github.com/Wesman687/spotify-clone"
     },
