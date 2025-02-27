@@ -18,6 +18,7 @@ import work8 from '../../assets/Images/work8.png'
 import work9 from '../../assets/Images/work9.png'
 import work10 from '../../assets/Images/work10.png'
 import work11 from '../../assets/Images/work11.png'
+import work12 from '../../assets/Images/work12.png'
 
 export default function Projects() {
   const controls = useAnimation()
@@ -47,6 +48,15 @@ export default function Projects() {
       git: "https://github.com/Wesman687/fullstack-ai-marketing-platform"
     },
     {
+      client: "First Church Of god",
+      year: "",
+      img: work12,
+      title: "Church Website",
+      detail: "Church Website using Nextjs, Redux, firebase, mongodb and backend python FastAPI to send emails for prayer request/member announcements.",
+      url: "https://www.palatka-firstchurchofgod.org//",
+      git: "https://github.com/Wesman687/FirstChurchOfGod-next"
+    },
+    {
       client: "Twitter Clone",
       year: "",
       img: work1,
@@ -60,7 +70,7 @@ export default function Projects() {
       year: "2022",
       img: work8,
       title: "Full Stack Music Player",
-      detail: "A full stack music player, using vite, tailwindcss, mongoose, express, nodemon.  Play music, sort them by albums, add/remove music and albums from the admin page, running from a backend server.",
+      detail: "A full stack music player, using vite, tailwindcss, mongoose, express, nodemon.  Play music, sort them by albums, add/remove music and albums from the admin page, running from a backend server. Backend No Longer Hosted",
       url: "https://spotify-clone-ruddy-rho.vercel.app/",
       git: "https://github.com/Wesman687/mile-high"
     },
@@ -69,7 +79,7 @@ export default function Projects() {
       year: "2022",
       img: work9,
       title: "NEXT JS Ecommerce Front End",
-      detail: "Ecommerce Demo made on Next Js, linked with the admin page listed below.  Stripe payment, full checkout, and fully functional.  This sight is still under construction.",
+      detail: "Ecommerce Demo made on Next Js, linked with the admin page listed below.  Stripe payment, full checkout. ",
       url: "https://ecommerce-front-dbrb3tc26-wesman687s-projects.vercel.app/",
       git: "https://github.com/Wesman687/EcommerceFrontEnd"
     },
@@ -87,7 +97,7 @@ export default function Projects() {
       year: "2022",
       img: work2,
       title: "Full Stack Ecommerce Sight, Admin Tools for Product Management",
-      detail: "A fully functional Ecommerce sight, with Stripe Payment processing, Admin page for product Management, and Order history.  User authentication, with User Database to store purchases, and Contact information.  This sight is linked to a server with express, mongodb, and cloudinary.",
+      detail: "A fully functional Ecommerce sight, with Stripe Payment processing, Admin page for product Management, and Order history.  User authentication, with User Database to store purchases, and Contact information.  This sight is linked to a server with express, mongodb, and cloudinary (Backend No longer hostd).",
       url: "https://mile-high.vercel.app/",
       git: "https://github.com/Wesman687/spotify-clone"
     },
