@@ -17,6 +17,7 @@ import work7 from '../../assets/Images/work7.png'
 import work8 from '../../assets/Images/work8.png'
 import work9 from '../../assets/Images/work9.png'
 import work10 from '../../assets/Images/work10.png'
+import work11 from '../../assets/Images/work11.png'
 
 export default function Projects() {
   const controls = useAnimation()
@@ -35,6 +36,16 @@ export default function Projects() {
   }, [inView, controls])
 
   const works = [
+    
+    {
+      client: "AI Marketing App",
+      year: "",
+      img: work11,
+      title: "AI Marketing App",
+      detail: "App with Project scraper and prompt management, AI Image Generator, AI Smart Web scraper. With Python FastAPI Backend, and a Railway Python backend for job processor.",
+      url: "https://marketing.paul-miracle.info/",
+      git: "https://github.com/Wesman687/fullstack-ai-marketing-platform"
+    },
     {
       client: "Twitter Clone",
       year: "",
